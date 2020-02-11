@@ -1,0 +1,145 @@
+使用标签承载内容
+    结构
+    html
+        head
+            title
+            meta
+        body
+    文本
+        标题（heading）和段落（paragraph）
+            h1 ~ h6
+            p
+        上标（superscript）和下标（subscript）
+            sup
+            sub
+        空白（白色空间折叠）
+        折行（break）和水平标尺（horizontal ruler）
+            br
+            hr
+        语义化标签
+            加粗和强调 - strong
+            引用 - blockquote
+            缩写词和首字母缩写词 - abbr / acronym
+            引文 - cite
+            所有者联系信息 - address
+            内容的修改 - ins / del
+    列表（list）
+        有序列表（ordered list）- ol / li
+        无序列表（unordered list）- ul / li
+        定义列表（definition list）- dl / dt / dd
+    链接（anchor）
+        页面链接
+        锚链接
+        功能链接
+    图像（image）
+        图像存储位置
+        图像及其宽高
+        选择正确的图像格式
+            JPEG
+            GIF
+            PNG
+        矢量图
+
+        语义化标签 - figure / figcaption
+
+    表格（table）
+        基本的表格结构 - table / tr / td / th
+        表格的标题 - caption
+        跨行和跨列 - rowspan属性 / colspan属性
+        长表格 - thead / tbody / tfoot
+    表单（form）
+        重要属性 - action / method / enctype
+        表单控件（input）- type属性
+        文本框 - text / 密码框 - password / 数字框 - number
+        邮箱 - email / 电话 - tel / 日期 - date / 滑条 - range / URL - url / 搜索 - search
+        单选按钮 - radio / 复选按钮 - checkbox
+        文件上传 - file / 隐藏域 - hidden
+        提交按钮 - submit / 图像按钮 - image / 重置按钮 - reset
+        下拉列表 - select / option
+        文本域（多行文本）- textarea
+        组合表单元素 - fieldset / legend
+    音视频（audio / video）
+        视频格式和播放器
+        视频托管服务
+        添加视频的准备工作
+        video标签和属性 - autoplay / controls / loop / muted / preload / src
+        audio标签和属性 - autoplay / controls / loop / muted / preload / src / width / height / poster
+    窗口（frame）
+        框架集（过时，不建议使用） - frameset / frame
+        内嵌窗口 - iframe
+
+其他
+    文档类型
+        <!doctype html>
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    注释
+        <!-- 这是一段注释，注释不能够嵌套 -->
+    属性
+        id：唯一标识
+        class：元素所属的类，用于区分不同的元素
+        title：元素的额外信息（鼠标悬浮时会显示工具提示文本）
+        tabindex：Tab键切换顺序
+        contenteditable：元素是否可编辑
+        draggable：元素是否可拖拽
+    块级元素 / 行级元素
+    字符实体（实体替换符）
+使用CSS渲染页面
+    简介
+        CSS的作用
+        CSS的工作原理
+        规则、属性和值
+        常用选择器
+
+    颜色（color）
+        如何指定颜色
+        颜色术语和颜色对比
+        背景色
+
+    文本（text / font）
+        文本的大小和字型(font-size / font-family)
+        粗细、样式、拉伸和装饰(font-weight / font-style / font-stretch / text-decoration)
+        行间距(line-height)、字母间距(letter-spacing)和单词间距(word-spacing)
+        对齐(text-align)方式和缩进(text-ident)
+        链接样式（:link / :visited / :active / :hover）
+
+    CSS3新属性
+        阴影效果 - text-shadow
+        首字母和首行文本(:first-letter / :first-line)
+        响应用户
+    盒子（box model）
+        盒子大小的控制（width / height）
+        盒子的边框、外边距和内边距（border / margin / padding）
+        盒子的显示和隐藏（display / visibility）
+
+    CSS3新属性
+
+        边框图像（border-image）
+        投影（border-shadow）
+        圆角（border-radius）
+    列表、表格和表单
+        列表的项目符号（list-style）
+        表格的边框和背景（border-collapse）
+        表单控件的外观
+        表单控件的对齐
+        浏览器的开发者工具
+    图像
+        控制图像的大小（display: inline-block）
+        对齐图像
+        背景图像（background / background-image / background-repeat / background-position）
+    布局
+        控制元素的位置（position / z-index）
+            普通流
+            相对定位
+            绝对定位
+            固定定位
+            浮动元素（float / clear）
+        网站布局
+
+            HTML5布局
+
+        适配屏幕尺寸
+
+            固定宽度布局
+            流体布局
+            布局网格
